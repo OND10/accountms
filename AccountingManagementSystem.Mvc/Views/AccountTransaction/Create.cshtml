@@ -1,0 +1,50 @@
+﻿@model AccountTransactionViewModel;
+@using AccountingManagementSystem.Domain.Entities
+@using AccountingManagementSystem.Infustracture.Data
+@inject AppDbContext DB;
+
+@{
+    var accounts = DB.Accounts.ToList();
+    var transactions = DB.Transactions.ToList();
+}
+
+@{
+    ViewData["account"] = accounts;
+    ViewData["transaction"] = transactions;
+}
+
+<h2>Create Transation Account</h2>
+
+<form asp-action="Create">
+    
+    <div class="col-sm-12 col-xl-3 m-b-30">
+        <label asp-for="AccountId"></label>
+        <span asp-validation-for="AccountId" class="alert-danger"></span>
+        <select asp-for="AccountId" asp-items='@new SelectList(ViewData["account"] as List<Account>, "AccountId", "AccountNumber")' class="form-control">
+        </select>
+    </div>
+
+    <div class="col-sm-12 col-xl-3 m-b-30">
+        <label asp-for="TransactionId"></label>
+        <span asp-validation-for="TransactionId" class="alert-danger"></span>
+        <select asp-for="TransactionId" asp-items='@new SelectList(ViewData["transaction"] as List<Transaction>, "TransactionId", "TransactionType")' class="form-control">
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Amount"></label>
+        <span asp-validation-for="Amount"></span>
+        <input asp-for="Amount" type="text"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="IsDebit"></label>
+        <input asp-for="IsDebit" type="checkbox" class="form-control" />
+        <span asp-validation-for="IsDebit" class="text-danger"></span>
+    </div>
+
+    <!-- Optionally manage TransactionAccounts if they are required -->
+    @* Include additional UI elements for TransactionAccounts if needed *@
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+

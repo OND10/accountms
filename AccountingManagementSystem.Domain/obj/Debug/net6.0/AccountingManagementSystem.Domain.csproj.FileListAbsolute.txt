@@ -1,0 +1,14 @@
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\bin\Debug\net6.0\AccountingManagementSystem.Domain.deps.json
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\bin\Debug\net6.0\AccountingManagementSystem.Domain.runtimeconfig.json
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\bin\Debug\net6.0\AccountingManagementSystem.Domain.dll
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\bin\Debug\net6.0\AccountingManagementSystem.Domain.pdb
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\AccountingManagementSystem.Domain.csproj.AssemblyReference.cache
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\AccountingManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\AccountingManagementSystem.Domain.AssemblyInfoInputs.cache
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\AccountingManagementSystem.Domain.AssemblyInfo.cs
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\AccountingManagementSystem.Domain.csproj.CoreCompileInputs.cache
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\AccountingManagementSystem.Domain.dll
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\refint\AccountingManagementSystem.Domain.dll
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\AccountingManagementSystem.Domain.pdb
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\AccountingManagementSystem.Domain.genruntimeconfig.cache
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Domain\obj\Debug\net6.0\ref\AccountingManagementSystem.Domain.dll

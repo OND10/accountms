@@ -1,0 +1,41 @@
+﻿@using AccountingManagementSystem.Infustracture.Data
+@model IEnumerable<AccountTransactionViewModel>
+@inject AppDbContext DB;
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h2>Accounts</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Account</th>
+            <th>Trnsaction</th>
+            <th>Amount</th>
+            <th>Is De</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model)
+        {
+            <tr>
+                @{
+                    var AccountNumber = DB.Accounts.Where(a => a.AccountId == account.AccountId).Select(a => a.AccountNumber).FirstOrDefault();
+                    var transactionType = DB.Transactions.Where(a => a.TransactionId == account.TransactionId).Select(a => a.TransactionType).FirstOrDefault();
+                }
+                <td>@AccountNumber</td>
+                <td>@transactionType</td>
+                <td>@account.Amount</td>
+                <td>@account.IsDebit</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@account.AccountId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@account.AccountId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

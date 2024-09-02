@@ -1,0 +1,35 @@
+﻿@model AccountViewModel
+
+<h2>Create Account</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="AccountNumber"></label>
+        <input asp-for="AccountNumber" class="form-control" />
+        <span asp-validation-for="AccountNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="OpeningBalance"></label>
+        <input asp-for="OpeningBalance" class="form-control" />
+        <span asp-validation-for="OpeningBalance" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AccountType"></label>
+        <select asp-for="AccountType" class="form-control">
+            <option>Asset</option>
+            <option>Liability</option>
+            <option>Equity</option>
+        </select>
+        <span asp-validation-for="AccountType" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="IsActive"></label>
+        <input asp-for="IsActive" type="checkbox" class="form-control" />
+        <span asp-validation-for="IsActive" class="text-danger"></span>
+    </div>
+
+    <!-- Optionally manage TransactionAccounts if they are required -->
+    @* Include additional UI elements for TransactionAccounts if needed *@
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

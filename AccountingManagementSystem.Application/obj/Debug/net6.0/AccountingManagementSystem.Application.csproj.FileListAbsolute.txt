@@ -1,0 +1,15 @@
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\bin\Debug\net6.0\AccountingManagementSystem.Application.deps.json
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\bin\Debug\net6.0\AccountingManagementSystem.Application.dll
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\bin\Debug\net6.0\AccountingManagementSystem.Application.pdb
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\bin\Debug\net6.0\AccountingManagementSystem.Domain.dll
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\bin\Debug\net6.0\AccountingManagementSystem.Domain.pdb
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\AccountingManagementSystem.Application.csproj.AssemblyReference.cache
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\AccountingManagementSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\AccountingManagementSystem.Application.AssemblyInfoInputs.cache
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\AccountingManagementSystem.Application.AssemblyInfo.cs
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\AccountingManagementSystem.Application.csproj.CoreCompileInputs.cache
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\AccountingManagementSystem.Application.csproj.CopyComplete
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\AccountingManagementSystem.Application.dll
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\refint\AccountingManagementSystem.Application.dll
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\AccountingManagementSystem.Application.pdb
+D:\visualstudiocodes\Csharp\Accounting Management System\AccountingManagementSystem.Application\obj\Debug\net6.0\ref\AccountingManagementSystem.Application.dll

@@ -1,0 +1,27 @@
+﻿@model IEnumerable<TransactionViewModel>
+@{
+    ViewData["Title"] = "Transactions";
+}
+
+<h2>Transactions</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Reference Number</th>
+            <th>Type</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var transaction in Model)
+        {
+            <tr>
+                <td>@transaction.ReferenceNumber</td>
+                <td>@transaction.TransactionType</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@transaction.TransactionId">View</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
